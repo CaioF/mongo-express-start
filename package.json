@@ -1,0 +1,45 @@
+{
+  "name": "mongo-express-start",
+  "version": "0.0.1",
+  "description": "A generator for a webapp server based on express, mongo and many other things 😀",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint --ignore-path .gitignore --fix src",
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "generator",
+    "api",
+    "webapp",
+    "nodejs",
+    "template"
+  ],
+  "author": "C. Fleury <48jzmf6jk@relay.firefox.com>",
+  "license": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "joi": "^17.2.0",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.0",
+    "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
