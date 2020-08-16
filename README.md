@@ -15,10 +15,18 @@ npm version >= 6
 
 ### Installing
 
+> From github
+
 ```
-git clone
-cd postexpress-generator/
+git clone https://github.com/CaioF/mongo-express-start
+cd mongo-express-start/
 npm i
+```
+
+> From npm
+
+```
+npm i mongo-express-start
 ```
 
 ### Deploying
@@ -31,12 +39,12 @@ npm i
 ## Built With
 
 - [Node.js](https://nodejs.org/en/)
+- [Express]()
+- [MongoDB]()
 
 ## Authors
 
-- **Caio Fleury** - _Initial work_ - [CaioF](https://github.com/CaioF)
-
-See also the list of [contributors]() who participated in this project.
+- **Caio Fleury** - [CaioF](https://github.com/CaioF)
 
 ## License
 

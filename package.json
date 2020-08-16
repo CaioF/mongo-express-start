@@ -11,12 +11,13 @@
   },
   "keywords": [
     "express",
-    "postgresql",
+    "mongodb",
     "generator",
     "api",
     "webapp",
     "nodejs",
-    "template"
+    "template",
+    "nosql"
   ],
   "author": "C. Fleury <48jzmf6jk@relay.firefox.com>",
   "license": "Attribution-NonCommercial-NoDerivatives 4.0 International",
